@@ -33,6 +33,12 @@
     <ClCompile Include="src\core\debugger\debug.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\core\compiler\compiler.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\compiler\scanner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\core\memory.h">
@@ -51,6 +57,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\core\debugger\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\compiler\compiler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\compiler\scanner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
