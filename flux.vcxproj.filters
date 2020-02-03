@@ -27,6 +27,9 @@
     <ClCompile Include="src\debugger\debug.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\core\value.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\core\memory.h">
@@ -39,6 +42,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\debugger\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\value.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

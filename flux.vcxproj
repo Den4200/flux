@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="src\core\chunk.c" />
     <ClCompile Include="src\core\memory.c" />
+    <ClCompile Include="src\core\value.c" />
     <ClCompile Include="src\debugger\debug.c" />
     <ClCompile Include="src\main.c" />
   </ItemGroup>
@@ -132,6 +133,7 @@
     <ClInclude Include="src\core\chunk.h" />
     <ClInclude Include="src\core\common.h" />
     <ClInclude Include="src\core\memory.h" />
+    <ClInclude Include="src\core\value.h" />
     <ClInclude Include="src\debugger\debug.h" />
   </ItemGroup>
   <ItemGroup>
