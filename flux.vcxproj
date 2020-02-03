@@ -126,7 +126,8 @@
     <ClCompile Include="src\core\chunk.c" />
     <ClCompile Include="src\core\memory.c" />
     <ClCompile Include="src\core\value.c" />
-    <ClCompile Include="src\debugger\debug.c" />
+    <ClCompile Include="src\core\vm\vm.c" />
+    <ClCompile Include="src\core\debugger\debug.c" />
     <ClCompile Include="src\main.c" />
   </ItemGroup>
   <ItemGroup>
@@ -134,7 +135,8 @@
     <ClInclude Include="src\core\common.h" />
     <ClInclude Include="src\core\memory.h" />
     <ClInclude Include="src\core\value.h" />
-    <ClInclude Include="src\debugger\debug.h" />
+    <ClInclude Include="src\core\vm\vm.h" />
+    <ClInclude Include="src\core\debugger\debug.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
