@@ -7,6 +7,9 @@
 #include "core/vm/vm.h"
 #include "core/debugger/debug.h"
 
+static void repl();
+static void runFile(const char* path);
+
 int main(int argc, const char* argv[]) {
 	initVM();
 	
@@ -42,7 +45,8 @@ static void repl() {
 }
 
 static char* readFile(const char* path) {
-	FILE* file = fopen(path, "rb");
+	FILE* file;
+	errno_t err =  fopen_s(&file, path, "rb");
 
 	if (file == NULL) {
 		fprintf(stderr, "Could not open file \"%s\".\n", path);
